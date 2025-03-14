@@ -9,7 +9,8 @@ import '../cssFiles/font.css'
 import TypewriterComponent from 'typewriter-effect'
 import Navbar from '@/components/Navbar'
 import Clarity from '@microsoft/clarity';
-import PhotosImportant from '@/components/Photosimportant'
+import ImagesPragyatha from './ImagesPragyatha'
+// import PhotosImportant from '@/components/Photosimportant'
 import { useEffect } from 'react'
 
 
@@ -49,7 +50,7 @@ const Home = () => {
             {/* -------------------------------Main Screen--------------------------------------------- */}
 
             <div className='bg-white'>
-                <PhotosImportant />
+                <ImagesPragyatha />
             </div>
 
             <div>
