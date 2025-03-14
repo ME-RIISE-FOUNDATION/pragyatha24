@@ -13,7 +13,7 @@ import { motion } from 'framer-motion'
 // import GitHub2 from '../images/github2.jpeg'
 // import Entror3 from '../images/Entror3.jpg'
 
-export default function Photos() {
+export default function PhotosImportant() {
     return (
         <div className="bg-black text-white">
             <div className='p-4'>
