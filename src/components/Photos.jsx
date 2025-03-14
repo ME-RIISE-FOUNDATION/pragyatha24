@@ -1,17 +1,18 @@
 // import React from 'react'
 import { motion } from 'framer-motion'
-import Ad1 from '../../../public/Events/ad1.jpg'
-import Ad2 from '../../../public/Events/ad2.jpg'
-import Crackathon from '../../../public/Events/winner2.jpg'
-import Crackathon2 from '../../../public/Events/Crackathon2.jpg'
-import Crackathon3 from '../../../public/Events/Crackathon.jpg'
-import Entror1 from '../../../public/Events/entro1.jpg'
-import Entror2 from '../../../public/Events/entro2.jpg'
-import Cyber1 from '../../../public/Events/Cyber.jpg'
-import Cyber2 from '../../../public/Events/Cyber2.jpg'
-import GitHub from '../../../public/Events/github.png'
-import GitHub2 from '../../../public/Events/github2.jpeg'
-// import Entror3 from '../../../public/Events/Entror3.jpg'
+import Ad1 from '../images/ad1.jpg'
+import Ad2 from '../images/ad2.jpg'
+import Crackathon from '../images/winner2.jpg'
+import Crackathon2 from '../images/Crackathon2.jpg'
+import Crackathon3 from '../images/Crackathon.jpg'
+import Entror1 from '../images/entro1.jpg'
+import Entror2 from '../images/entro2.jpg'
+import Cyber1 from '../images/Cyber.jpg'
+import Cyber2 from '../images/Cyber2.jpg'
+import GitHub from '../images/github.png'
+import GitHub2 from '../images/github2.jpeg'
+// import Entror3 from '../images/Entror3.jpg'
+
 export default function Photos() {
     return (
         <div className="bg-black text-white">
@@ -32,9 +33,10 @@ export default function Photos() {
                         <motion.div className='m-4'
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 0.1 }}>
+                            transition={{ duration: 0.5 }}>
                             <img src={Ad2} alt="" className='rounded-3xl' />
                         </motion.div>
+
                     </div>
                 </div>
 
@@ -92,7 +94,6 @@ export default function Photos() {
                 <div className='entrorphosis'>
                     <div className="text-6xl m-4 text-center font-semibold">Entrorphosis</div>
                     <div>
-                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cupiditate! Earum, porro.</p> */}
                     </div>
                     <div className="grid grid-cols-2 mb-10 ">
 
@@ -119,9 +120,7 @@ export default function Photos() {
                 <br />
                 <div className='git'>
                     <div className="text-6xl m-4 text-center font-semibold">Git && <p className='text-pink-600'>GitHub Workshop</p></div>
-                    <div>
-                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cupiditate! Earum, porro.</p> */}
-                    </div>
+                   
                     <div className="grid grid-cols-2 mb-10">
                         <motion.div className='m-4'
                             initial={{ opacity: 0, y: 50 }}
@@ -144,8 +143,7 @@ export default function Photos() {
                 <div className='cyber'>
                     <div className="text-6xl m-4 text-center font-semibold">Cyber Security &&<p className='text-pink-600'>Ethical Hacking</p></div>
                     <div>
-                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cupiditate! Earum, porro.</p> */}
-                    </div>
+                     </div>
                     <div className="grid grid-cols-2 mb-10 ">
 
                         <motion.div className='m-4'
