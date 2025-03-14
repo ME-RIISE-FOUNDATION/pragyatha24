@@ -9,7 +9,7 @@ import '../cssFiles/font.css'
 import TypewriterComponent from 'typewriter-effect'
 import Navbar from '@/components/Navbar'
 import Clarity from '@microsoft/clarity';
-import Photos from './Photos'
+import Photos from '@/components/Photos'
 import { useEffect } from 'react'
 
 
