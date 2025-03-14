@@ -43,7 +43,7 @@ const Home = () => {
                     <Logo />
                 </div>
                 <div className='text-center text-white mt-64 md:mt-32 font-bold text-[25px]'>
-                    <Timer />
+                    {/* <Timer /> */}
 
                 </div>
             </div>
