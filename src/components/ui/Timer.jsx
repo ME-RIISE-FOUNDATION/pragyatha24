@@ -34,7 +34,7 @@ const Timer = () => {
             {/* <h1 className='font-bold text-3xl m-4'>Starts in</h1> */}
             <div>
                 <div className='flex justify-center rounded-2xl text-4xl md:text-2xl lg:text-xl '>
-                    Scroll down to View More.......
+                    Scroll down to View More
                 </div>
             </div>
 
