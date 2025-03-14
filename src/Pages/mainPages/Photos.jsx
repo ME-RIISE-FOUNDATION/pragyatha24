@@ -1,0 +1,172 @@
+// import React from 'react'
+import { motion } from 'framer-motion'
+import Ad1 from '../../../public/Events/ad1.jpg'
+import Ad2 from '../../../public/Events/ad2.jpg'
+import Crackathon from '../../../public/Events/winner2.jpg'
+import Crackathon2 from '../../../public/Events/Crackathon2.jpg'
+import Crackathon3 from '../../../public/Events/Crackathon.jpg'
+import Entror1 from '../../../public/Events/entro1.jpg'
+import Entror2 from '../../../public/Events/entro2.jpg'
+import Cyber1 from '../../../public/Events/Cyber.jpg'
+import Cyber2 from '../../../public/Events/Cyber2.jpg'
+import GitHub from '../../../public/Events/github.png'
+import GitHub2 from '../../../public/Events/github2.jpeg'
+// import Entror3 from '../../../public/Events/Entror3.jpg'
+export default function Photos() {
+    return (
+        <div className="bg-black text-white">
+            <div className='p-4'>
+                {/* <div className="text-[100px] text-center">Events - Pragyatha</div> */}
+                <br />
+                <br />
+                <div className='adspize'>
+                    <div className="text-6xl m-4 text-center font-semibold">Adspize</div>
+                    <div className="grid grid-cols-2 mb-10">
+
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}>
+                            <img src={Ad1} alt="" className='rounded-3xl' />
+                        </motion.div>
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.1 }}>
+                            <img src={Ad2} alt="" className='rounded-3xl' />
+                        </motion.div>
+                    </div>
+                </div>
+
+                <br />
+                <hr />
+                <br />
+                <div className='ui'>
+                    <div className="text-6xl m-4 text-center font-semibold">UI/UX <p className='text-pink-600'>Hackathon</p></div>
+                    <div className="grid grid-cols-2 mb-10">
+
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}>
+                            <img src={Ad1} alt="" className='rounded-3xl' />
+                        </motion.div>
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}>
+                            <img src={Ad1} alt="" className='rounded-3xl' />
+                        </motion.div>
+                    </div>
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div className='crackathon'>
+                    <div className="text-6xl m-4 text-center font-semibold">Crackathon</div>
+                    <div className="grid grid-cols-3 mb-10">
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}>
+                            <img src={Crackathon} alt="" className='rounded-3xl' style={{ width: '100%', height: '300px', objectfit: 'cover' }} />
+                        </motion.div>
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}>
+                            <img src={Crackathon2} alt="" className='rounded-3xl' style={{ width: '100%', height: '300px', objectfit: 'cover' }} />
+                        </motion.div>
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.4 }}>
+                            <img src={Crackathon3} alt="" className='rounded-3xl' style={{ width: '100%', height: '300px', objectfit: 'cover' }} />
+                        </motion.div>
+                    </div>
+                </div>
+
+                <br />
+                <hr />
+                <br />
+                <div className='entrorphosis'>
+                    <div className="text-6xl m-4 text-center font-semibold">Entrorphosis</div>
+                    <div>
+                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cupiditate! Earum, porro.</p> */}
+                    </div>
+                    <div className="grid grid-cols-2 mb-10 ">
+
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}>
+                            <img src={Entror2} alt="Ad1" className='rounded-3xl' />
+                        </motion.div>
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}>
+                            <img src={Entror1} alt="Ad1" className='rounded-3xl' />
+                        </motion.div>
+
+
+
+
+                    </div>
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div className='git'>
+                    <div className="text-6xl m-4 text-center font-semibold">Git && <p className='text-pink-600'>GitHub Workshop</p></div>
+                    <div>
+                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cupiditate! Earum, porro.</p> */}
+                    </div>
+                    <div className="grid grid-cols-2 mb-10">
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}>
+                            <img src={GitHub} alt="Ad1" className='rounded-3xl' style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+                        </motion.div>
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}>
+                            <img src={GitHub2} alt="Ad1" className='rounded-3xl' style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+                        </motion.div>
+                    </div>
+
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div className='cyber'>
+                    <div className="text-6xl m-4 text-center font-semibold">Cyber Security &&<p className='text-pink-600'>Ethical Hacking</p></div>
+                    <div>
+                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cupiditate! Earum, porro.</p> */}
+                    </div>
+                    <div className="grid grid-cols-2 mb-10 ">
+
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}>
+                            <img src={Cyber1} alt="Ad1" className='rounded-3xl' />
+                        </motion.div>
+                        <motion.div className='m-4'
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}>
+                            <img src={Cyber2} alt="Ad1" className='rounded-3xl' />
+                        </motion.div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}

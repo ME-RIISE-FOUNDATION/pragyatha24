@@ -1,14 +1,15 @@
-import React from 'react'
+// import React from 'react'
 import Timer from '@/components/ui/Timer'
 import Logo from '@/components/ui/Logo'
 import EventHome from './EventHome'
 import Footer from '@/components/Footer'
 import Scroll from '@/components/ui/Scroll'
 import '../cssFiles/font.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import TypewriterComponent from 'typewriter-effect'
 import Navbar from '@/components/Navbar'
 import Clarity from '@microsoft/clarity';
+import Photos from './Photos'
 import { useEffect } from 'react'
 
 
@@ -17,7 +18,7 @@ const Home = () => {
     useEffect(() => {
         Clarity.init('p0awpsd4j5');
     }, [])
-    
+
     return (
         <div>
             <Scroll />
@@ -46,6 +47,10 @@ const Home = () => {
                 </div>
             </div>
             {/* -------------------------------Main Screen--------------------------------------------- */}
+
+            <div>
+                <Photos />
+            </div>
 
             <div>
                 <EventHome />
